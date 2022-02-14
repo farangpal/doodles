@@ -21,8 +21,8 @@ setInterval(myCount,982);
 
 /** input number spinner
  */
-let plusBtn = document.querySelector('button[id*="btn-plus"]');
-let minusBtn = document.querySelector('button[id*="btn-minus"]');
+let plusBtn = document.querySelector('button[class*="btn-plus"]');
+let minusBtn = document.querySelector('button[class*="btn-minus"]');
 let totalNFTInput = document.querySelector('input[type="text"][id="totalNFT"]')
 let totalETHSpan =  document.querySelector('#totalETH');
 totalNFTInput.value = 1;
