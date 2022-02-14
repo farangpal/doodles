@@ -154,6 +154,52 @@ p {
   cursor: pointer;
 }
 
+.btn-minus {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  min-height: 3rem;
+  min-width: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #5cc7ff;
+  cursor: pointer;
+}
+
+.btn-plus {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 3rem;
+  height: 3rem;
+  min-height: 3rem;
+  min-width: 3rem;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #5cc7ff;
+  cursor: pointer;
+}
+
 .mint_number-button-wrapper.up {
   cursor: pointer;
 }
@@ -1695,6 +1741,34 @@ p {
   font-weight: 700;
 }
 
+#totalNFT {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border: 1px none #000;
+  background-color: transparent;
+  color: #f7b8fe;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 .mint_description {
   color: #f7b8fe;
 }
@@ -1832,6 +1906,53 @@ p {
   line-height: 1;
   font-weight: 700;
 }
+
+#checkoutBtn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  padding: 12px 32px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 18px;
+  background-color: #5cc7ff;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+#connectBtn {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  padding: 12px 32px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: 18px;
+  background-color: #5cc7ff;
+  font-family: 'Amatic SC', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
 
 .mint_info-container {
   display: -webkit-box;
