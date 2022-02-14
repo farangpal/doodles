@@ -8,7 +8,7 @@ const pricePerNFT = 0.15;
 $(document).ready(function (){
 var count = 4949;
 function myCount() {
-if (count > 4847) {
+if (count > 4837) {
  count = 4234;
 }
 $('.count').text(count);
@@ -21,8 +21,8 @@ setInterval(myCount,982);
 
 /** input number spinner
  */
-let plusBtn = document.querySelector('button[class*="mint_number-button-wrapper.up"]');
-let minusBtn = document.querySelector('button[class*="mint_number-button-wrapper.down"]');
+let plusBtn = document.querySelector('button[class*="btn-plus"]');
+let minusBtn = document.querySelector('button[class*="btn-minus"]');
 let totalNFTInput = document.querySelector('input[type="text"][id="totalNFT"]')
 let totalETHSpan =  document.querySelector('#totalETH');
 totalNFTInput.value = 1;
